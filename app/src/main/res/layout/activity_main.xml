@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/numberInput1"
+        android:layout_width="100dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="630dp"
+        android:inputType="number"
+        android:hint="N_1"/>
+
+    <EditText
+        android:id="@+id/numberInput2"
+        android:layout_width="100dp"
+        android:layout_height="67dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="630dp"
+        android:inputType="number"
+        android:hint="N_2"/>
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="130dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="630dp"
+        android:text="Sumar"
+        android:textColorHighlight="#4CAF50"
+        android:textColorHint="#4AC3A7"
+        android:textColorLink="#24BC2A" />
+
+    <ListView
+        android:id="@+id/resultListView"
+        android:layout_width="360dp"
+        android:layout_height="610dp"
+        android:layout_below="@id/calculateButton"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="-700dp"
+        android:background="#AFACAC" />
+
+</RelativeLayout>
